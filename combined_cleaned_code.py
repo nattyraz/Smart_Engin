@@ -9,7 +9,7 @@ import streamlit as st
 # Main function for the app
 def main():
     # Load logo and display it
-    st.image("assets/logo.png", width=300)
+    st.image("assets/header-logo.png", width=300)
     
     # Display friendly message and search box
     st.write("Bonjour! Comment puis-je vous aider aujourd'hui?")
