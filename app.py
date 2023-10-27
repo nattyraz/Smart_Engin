@@ -5,7 +5,7 @@ import pandas as pd
 import os
 
 # Initialize OpenAI API (Replace "your_openai_api_key" with your actual API key)
-openai.api_key ="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"
+openai.api_key = "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"
 
 # Function to process natural language query
 def process_query(query):
