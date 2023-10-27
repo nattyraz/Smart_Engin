@@ -1,11 +1,10 @@
 
-# Combined and Cleaned-Up Code
-
-# ---- From integration_sample_code.py ----
-
 # Import Streamlit and custom NLP module
 import streamlit as st
 import traitement_langage_naturel as nlp  # Make sure to place traitement_langage_naturel.py in the same directory or adjust the import
+import openai
+import pandas as pd
+import streamlit as st
 
 # Main function for the app
 def main():
@@ -36,11 +35,10 @@ if __name__ == "__main__":
 # ---- From nlp_sample_code.py ----
 
 # Import required libraries
-import openai
-import pandas as pd
+
 
 # Initialize OpenAI API (Replace "your_openai_api_key" with your actual API key)
-openai.api_key = "your_openai_api_key"
+openai.api_key = "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"
 
 # Function to process natural language query
 def process_query(query):
@@ -74,7 +72,7 @@ if __name__ == "__main__":
 # ---- From app_sample_code.py ----
 
 # Import Streamlit
-import streamlit as st
+
 
 # Main function for the app
 def main():
